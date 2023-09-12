@@ -1,4 +1,9 @@
-# RaspberryPi Temperture Fan Control
+# FORK OF: RaspberryPi Temperture Fan Control
+
+I've adjust python script for my own purposes 
+
+----------------------------------------------
+
 Control a Raspberry Pi fan based on temperature. Four Possible methods:
 
 * **Raspbery Pi OS Control** [as outlined here](https://www.youtube.com/watch?v=AdjU_AVcZTA)
