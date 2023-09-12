@@ -21,7 +21,7 @@
 import getopt, sys
 
 pin = 14
-temp_limit = 60.0
+temp_limit = 50.0
 verbose = False
 
 try:
@@ -45,7 +45,7 @@ from vcgencmd import Vcgencmd
 vcgm = Vcgencmd()
 cputemp = vcgm.measure_temp()
 if verbose:
-    print("cpu temp: %2.1f, limit: %2.1f" % (cputemp, temp_limit))
+    print("cpu temp: %2.1c, limit: %2.1c" % (cputemp, temp_limit))
 
 #use GPIO pin numbering not physical
 GPIO.setmode(GPIO.BCM)
