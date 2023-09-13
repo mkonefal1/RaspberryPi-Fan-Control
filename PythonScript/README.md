@@ -2,7 +2,7 @@
 
 I've changed some properties to works with Celsius.
 
-##Crontab action
+## Crontab action
 Add this line to your crontab file 
 ```
 crontab -e
