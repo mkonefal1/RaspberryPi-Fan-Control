@@ -6,7 +6,8 @@ I've changed some properties to works with Celsius.
 Add this line to your crontab file 
 ```
 crontab -e
-
+```
+```
 * * * * * /usr/bin/python3 ~/Fantemp2.py
 ```
 ---
