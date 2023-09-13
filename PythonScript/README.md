@@ -2,6 +2,13 @@
 
 I've changed some properties to works with Celsius.
 
+##Crontab action
+Add this line to your crontab file 
+
+  crontab -e
+
+  * * * * * /usr/bin/python3 ~/Fantemp2.py
+
 ---
 
 This python script is an alternative to the Bash script
